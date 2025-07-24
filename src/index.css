@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+#root {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.head {
+  background-color: rgba(255, 255, 255, 0.637);
+  font-family: "Bungee Tint", Roboto, Verdana, Tahoma, sans-serif;
+  padding: 2%;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://i.imgur.com/KQRpuFz.jpeg);
+}
+
+/*//////////////////////////Nav//////////////////////////////////////////////////////////////*/
+
+.navTitulo {
+  color: black;
+  text-decoration: none;
+  font-family: Goldman, Roboto, Verdana, Tahoma, sans-serif;
+}
+
+.navItem {
+  color: black;
+  text-decoration: none;
+  font-family: Goldman, Roboto, Verdana, Tahoma, sans-serif;
+}
+
+/*/////////////////////////Main////////////////////////////////////////////////////////////*/
+
+.tituloMain {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.644);
+  font-family: Goldman, Roboto, Verdana, Tahoma, sans-serif;
+  font-size: 4vw;
+  margin: 2%;
+  text-align: center;
+}
+
+.parrafoMain {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.74);
+  font-family: "Amatic SC", Roboto, Verdana, Tahoma, sans-serif;
+  font-size: 4vw;
+  margin: 2%;
+}
+
+/*///////////////////////footer////////////////////////////////*/
+
+footer {
+  background-color: rgba(122, 122, 122, 0.87);
+  border: 2px dotted black;
+  padding: 10px;
+  margin: 0;
+}
+
+.tituloFooter {
+  font-family: "Merienda", Roboto, Tahoma, Verdana, sans-serif;
+  font-size: clamp(0.8em, 1.8vw, 2em);
+  font-weight: 600;
+  margin: 0 4% 0;
+  color: rgb(0, 0, 0);
+}
+
+.redes {
+  margin: 0 2% 0;
+  width: 50%;
+  float: right;
+  list-style-type: none;
+}
+
+.redesItem {
+  float: right;
+  color: rgb(0, 0, 0);
+  margin: 0 3%;
+  font-size: clamp(1em, 1.8vw, 3em);
+}
+
+.copy {
+  text-align: center;
+  font-family: "Amatic CS", Roboto, Tahoma, Verdana, sans-serif;
+  font-size: clamp(0.8em, 1.6vw, 2em);
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+/*//////////////////////////////////Admin////////////////////////////////////////////*/
+
+.admin {
+  text-align: center;
+  font-family: "Space Mono", Roboto, Verdana, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.tituloAdmin {
+  font-size: clamp(0.8em, 5vw, 6em);
+  background-color: rgba(0, 0, 0, 0.73);
+  margin: 5% 0;
+}

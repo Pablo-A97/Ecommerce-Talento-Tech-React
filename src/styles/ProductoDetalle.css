@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.producto {
+    color: black;
+    font-family: "Space Mono", Roboto, Verdana, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 2%;
+}
+
+.tituloProd {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 183, 255, 0.623);
+    border: 5px outset rgb(4, 2, 39);
+    border-radius: 5px;
+    font-size: clamp(1em, 4vw, 6em);
+    font-family: Goldman, Roboto, Verdana, Tahoma, sans-serif;
+    padding: 20px 10px;
+    margin: 10px;
+}
+
+.descripcionProd {
+    color: rgb(0, 0, 0);
+    font-size: clamp(1em, 2vw, 3em);
+    border: 4px dashed rgb(4, 2, 39);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.imagenProd {
+    width: 40%;
+    height: auto;
+    margin: 20px;
+}
+
+.precio {
+    font-family: Goldman, Roboto, Verdana, Tahoma, sans-serif;
+    margin: 0 10px;
+    font-size: 4vw;
+    margin: 20px;
+}
+
+.contador {
+    font-family: Goldman, Roboto, Verdana, Tahoma, sans-serif;
+    margin: 0 10px;
+    font-size: 2vw;
+}
+
+.cargando {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.73);
+    font-family: "Golden", Roboto, Verdana, Tahoma, sans-serif;
+    font-size: clamp(0.8em, 8vw, 8em);
+    text-align: center;
+    margin: 25% auto;
+}
+
+.buscador {
+    border: 3px ridge rgb(3, 184, 255);
+    border-radius: 5px;
+    font-family: "Golden", Roboto, Verdana, Tahoma, sans-serif;
+    font-size: clamp(1em, 1.5vw, 3em);
+    margin: 2%;
+}
+
+/*///////////////////////////////////////////Formulario Edicion ////////////////////////////////////////////*/
+
+.formEditar {
+    font-family: "Itim", Roboto, Verdana, Tahoma, sans-serif;
+    font-size: clamp(0.8em, 1.4vw, 2.5em);
+    border: 5px dotted rgb(0, 185, 124);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.644);
+    margin: 5% 15%;
+    padding: 1.5%;
+    text-align: center;
+}
+
+.tituloEditar {
+    color: rgb(0, 0, 0);
+    font-size: clamp(1.5em, 2.5vw, 3.5em);
+    font-weight: 300;
+    border: 4px dotted black;
+    padding: 1%;
+    margin: 4% 0 6%;
+    background-color: rgb(0, 194, 129);
+}
+
+.divEditar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formEditar label {
+    color: rgb(0, 0, 0);
+    background-color: rgb(34, 255, 181);
+    border: 3px dotted black;
+    font-weight: 450;
+    font-size: clamp(0.8em, 1.9vw, 2.5em);
+    margin: 0.5% 2%;
+    padding: 0 3%;
+    width: auto;
+}
+
+.formEditar input {
+    background-color: rgb(255, 255, 255);
+    border: 3px ridge rgb(34, 255, 181);
+    font-family: "Capriola", Roboto, Verdana, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: clamp(0.8em, 1.3vw, 2.5em);
+    width: 70%;
+    margin: 1.5% 0;
+}
+
+.formEditar textarea {
+    background-color: rgb(255, 255, 255);
+    border: 3px ridge rgb(34, 255, 181);
+    font-family: "Capriola", Roboto, Verdana, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: clamp(0.8em, 1.3vw, 2.5em);
+    width: 70%;
+    height: 300px;
+    margin: 1.5% 0;
+}
+
+.btnEditar {
+    font-family: "Itim", Roboto, Verdana, Tahoma, sans-serif;
+    font-size: clamp(0.8em, 1.8vw, 2.5em);
+    margin: 1%;
+    text-align: center;
+}
+
+/*///////////////////////////////////Formulario Agregar/////////////////////////////////////////////*/
+
+.formAgregar {
+    font-family: "Itim", Roboto, Verdana, Tahoma, sans-serif;
+    font-size: clamp(0.8em, 1.4vw, 2.5em);
+    border: 5px groove rgb(255, 251, 29);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.644);
+    margin: 5% 15%;
+    padding: 1.5%;
+    text-align: center;
+}
+
+.tituloAgregar {
+    color: rgb(0, 0, 0);
+    font-size: clamp(1.5em, 2.5vw, 3.5em);
+    font-weight: 300;
+    border: 4px groove black;
+    padding: 1%;
+    margin: 4% 0 6%;
+    background-color: rgb(251, 255, 0);
+}
+
+.divAgregar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formAgregar label {
+    color: rgb(0, 0, 0);
+    background-color: rgb(251, 255, 0);
+    border: 3px groove black;
+    font-weight: 450;
+    font-size: clamp(0.8em, 1.9vw, 2.5em);
+    margin: 0.5% 2%;
+    padding: 0 3%;
+    width: auto;
+}
+
+.formAgregar input {
+    background-color: rgb(255, 255, 255);
+    border: 3px ridge rgb(0, 0, 0);
+    font-family: "Capriola", Roboto, Verdana, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: clamp(0.8em, 1.3vw, 2.5em);
+    width: 70%;
+    margin: 1.5% 0;
+}
+
+.formAgregar textarea {
+    background-color: rgb(255, 255, 255);
+    border: 3px ridge rgb(0, 0, 0);
+    font-family: "Capriola", Roboto, Verdana, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: clamp(0.8em, 1.3vw, 2.5em);
+    width: 70%;
+    height: 300px;
+    margin: 1.5% 0;
+}
+
+.btnAgregar {
+    font-family: "Itim", Roboto, Verdana, Tahoma, sans-serif;
+    font-size: clamp(0.8em, 1.8vw, 2.5em);
+    margin: 1%;
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.carritoContenedor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carritoCard {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: rgba(49, 231, 255, 0.795);
+    border: 5px double #000000;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    margin: 15px 10px;
+}
+
+.carritoImagen {
+    width: 110px;
+    height: 110px;
+    margin: 10%;
+    border: 2px solid;
+    border-radius: 60px;
+}
+
+.tituloCarrito {
+    color: rgb(0, 0, 0);
+    font-family: Goldman, Roboto, Verdana, Tahoma, sans-serif;
+    font-size: clamp(1em, 2vw, 3em);
+}
+
+.cantidadCarrito {
+    font-size: 1.2vw;
+    color: rgb(0, 0, 0);
+    font-family: "Space Mono", Roboto, Verdana, Tahoma, sans-serif;
+}
+
+.precioCarrito {
+    font-family: "Space Mono", Roboto, Verdana, Tahoma, sans-serif;
+    font-size: 1.2vw;
+    color: rgb(0, 0, 0);
+}
+
+.infoCarrito {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 15px;
+    font-family: Space Mono, Roboto, Verdana, Tahoma, sans-serif;
+    font-size: clamp(1em, 1.6vw, 3em);
+    font-weight: 700;
+    text-align: center;
+    margin: 2% 30%;
+}
+
+.botonVaciar {
+    font-family: Space Mono, Roboto, Verdana, Tahoma, sans-serif;
+    font-size: clamp(1em, 1.5vw, 3em);
+    width: 100%;
+    text-align: center;
+}
