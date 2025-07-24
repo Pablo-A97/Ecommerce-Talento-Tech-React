@@ -58,28 +58,30 @@ function ProductoDetalle({ }) {
     }
 
     return (
-        <div key={productoId.id} className="producto" id="root">
-            <div>
-                <h3 className="tituloProd">{productoId.name}</h3>
-            </div>
-            <div>
-                <img className="imagenProd" src={productoId.imagen}></img>
-            </div>
-            <div>
-                <p className="descripcionProd">{productoId.description}</p>
-            </div>
-            <div>
-                <p className="precio">${productoId.price}</p>
-            </div>
-            <div style={{ margin: "20px" }}>
-                <BotonStyled titulo="-" onClick={restarContador} />
-                <span className="contador">{cantidad}</span>
-                <BotonStyled titulo="+" onClick={sumarContador} />
-            </div>
-            <div style={{ margin: "20px" }}>
-                {admin ? <><Link to={"/admin/editarProducto/" + id} ><BotonStyled titulo="Editar Producto" /></Link>
-                    <BotonStyled titulo="Eliminar Producto" onClick={dispararEliminar} /></>
-                    : <BotonStyled titulo="Agregar al carrito" onClick={funcionCarrito} />}
+        <div key={productoId.id} className="root">
+            <div className="producto">
+                <div>
+                    <h3 className="tituloProd">{productoId.name}</h3>
+                </div>
+                <div>
+                    <img className="imagenProd" src={productoId.imagen}></img>
+                </div>
+                <div>
+                    <p className="descripcionProd">{productoId.description}</p>
+                </div>
+                <div>
+                    <p className="precio">${productoId.price}</p>
+                </div>
+                <div style={{ margin: "20px" }}>
+                    <BotonStyled titulo="-" onClick={restarContador} />
+                    <span className="contador">{cantidad}</span>
+                    <BotonStyled titulo="+" onClick={sumarContador} />
+                </div>
+                <div style={{ margin: "20px" }}>
+                    {admin ? <><Link to={"/admin/editarProducto/" + id} ><BotonStyled titulo="Editar Producto" /></Link>
+                        <BotonStyled titulo="Eliminar Producto" onClick={dispararEliminar} /></>
+                        : <BotonStyled titulo="Agregar al carrito" onClick={funcionCarrito} />}
+                </div>
             </div>
         </div>
     )

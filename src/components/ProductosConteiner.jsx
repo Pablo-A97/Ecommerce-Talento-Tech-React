@@ -52,7 +52,7 @@ function ProductosConteiner() {
 
             return (
                 <>
-                    <div id="root">
+                    <div className="root">
                         {/*<Helmet>
                             <title>Productos | Mi Tienda</title>
                             <meta name="description" content="Explora nuestra variedad de productos." />

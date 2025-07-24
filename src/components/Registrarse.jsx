@@ -34,7 +34,7 @@ function Registrarse() {
     }
 
     return (
-        <div id="root">
+        <div className="root">
             <form className="formRegistro" onSubmit={registrarUsuario}>
                 <fieldset>
                     <legend className="tituloRegistro">Crear una cuenta nueva</legend>

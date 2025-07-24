@@ -12,12 +12,14 @@ function Admin() {
     }
 
     return (
-        <div id="root" className="admin">
-            <p className="tituloAdmin">Componente Administrador</p>
-            <Link to="/admin/agregarProducto"><BotonStyled titulo="Agregar nuevo producto"
-                $bg="rgba(248, 217, 40, 1)" $textColor="rgba(0, 0, 0, 1)"
-                $hoverBg="rgba(255, 0, 157, 1)" $hoverTextColor="rgba(255, 255, 255, 1)" />
-            </Link>
+        <div className="root" >
+            <div className="admin">
+                <p className="tituloAdmin">Componente Administrador</p>
+                <Link to="/admin/agregarProducto"><BotonStyled titulo="Agregar nuevo producto"
+                    $bg="rgba(248, 217, 40, 1)" $textColor="rgba(0, 0, 0, 1)"
+                    $hoverBg="rgba(255, 0, 157, 1)" $hoverTextColor="rgba(255, 255, 255, 1)" />
+                </Link>
+            </div>
         </div>
     )
 }

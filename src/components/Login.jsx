@@ -20,8 +20,14 @@ function Login() {
       login(usuario);
       dispararSweetSucces("Has iniciado sesion correctamente!")
     }).catch((error) => {
-      if (error.code === "auth/invalid-email")
+      if (error.code === "auth/invalid-email") {
         dispararSweetError("Credenciales Incorrectas!")
+      } if (error.code === "auth/invalid-credential") {
+        dispararSweetError("Credenciales Incorrectas!")
+      }
+      if (error.code === "auth/missing-password") {
+        dispararSweetError("Ingrese su contraseña primero!")
+      }
     })
   };
 
@@ -42,7 +48,7 @@ function Login() {
 
   if (user) {
     return (
-      <div id="root">
+      <div className="root">
         <form onSubmit={handleSubmit2} style={{ margin: "4%" }}>
           <div className="btnLogueo">
             <BotonStyled titulo="Cerrar Sesión" type="submit"
@@ -55,7 +61,7 @@ function Login() {
   }
 
   return (
-    <div id="root">
+    <div className="root">
       <form className="formLogin" onSubmit={iniciarSesion}>
         <fieldset>
           <legend className="tituloLogin">Iniciar sesión con mail y contraseña</legend>

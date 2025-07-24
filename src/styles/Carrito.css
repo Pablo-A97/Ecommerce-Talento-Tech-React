@@ -64,4 +64,5 @@
     font-size: clamp(1em, 1.5vw, 3em);
     width: 100%;
     text-align: center;
+    margin-bottom: 5%;
 }

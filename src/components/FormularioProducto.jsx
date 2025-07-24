@@ -76,7 +76,7 @@ function FormularioProducto({ }) {
     };
 
     return (
-        <div id="root">
+        <div className="root">
             <form className="formAgregar" onSubmit={handleSubmit2}>
                 <fieldset>
                     <legend className="tituloAgregar">Agregar Producto</legend>

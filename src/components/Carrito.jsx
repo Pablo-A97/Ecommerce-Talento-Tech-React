@@ -28,7 +28,7 @@ function Carrito({ }) {
     }
 
     return (
-        <div id="root">
+        <div className="root">
             <div className="carritoContenedor">
                 {productosCarrito.length > 0 ? productosCarrito.map((producto) => (
                     <>

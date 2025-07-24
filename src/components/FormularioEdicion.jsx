@@ -77,7 +77,7 @@ function FormularioEdicion({ }) {
 
     };
     return (
-        <div id="root">
+        <div className="root">
             <form className="formEditar" onSubmit={handleSubmit}>
                 <fieldset>
                     <legend className="tituloEditar">Editar Producto</legend>
